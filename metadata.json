@@ -1,0 +1,6 @@
+{
+  "name": "Sistem Operasional Kurikulum MA Bojongjati",
+  "description": "Dokumen Master Administrasi, Operasional, Supervisi Akademik, dan Penjaminan Mutu Waka Kurikulum MA Bojongjati Kemenag RI",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

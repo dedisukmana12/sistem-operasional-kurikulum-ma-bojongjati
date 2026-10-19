@@ -1,0 +1,52 @@
+{
+  "entities": {
+    "app_settings": {
+      "title": "App Settings",
+      "description": "Global variables and configuration settings for the madrasah curriculum system",
+      "type": "object",
+      "properties": {
+        "NAMA_MADRASAH": { "type": "string" },
+        "NSM_NPSN": { "type": "string" },
+        "TAHUN_AJARAN": { "type": "string" },
+        "NAMA_KEPALA_MADRASAH": { "type": "string" },
+        "NIP_KEPALA_MADRASAH": { "type": "string" },
+        "NAMA_WAKAMOD": { "type": "string" },
+        "NIP_WAKAMOD": { "type": "string" },
+        "KOTA_MADRASAH": { "type": "string" },
+        "TANGGAL_DOKUMEN": { "type": "string" }
+      }
+    },
+    "jtm_subjects": {
+      "title": "JTM Subjects",
+      "description": "Subjects and weekly teaching hour allocations",
+      "type": "object",
+      "properties": {
+        "code": { "type": "string" },
+        "namaMatpel": { "type": "string" },
+        "kelompok": { "type": "string" },
+        "jtmKelasX": { "type": "number" },
+        "jtmKelasXI": { "type": "number" },
+        "jtmKelasXII": { "type": "number" },
+        "keterangan": { "type": "string" }
+      }
+    },
+    "supervision_records": {
+      "title": "Supervision Records",
+      "description": "Teacher academic supervision history records",
+      "type": "object",
+      "properties": {
+        "tanggal": { "type": "string" },
+        "namaGuru": { "type": "string" },
+        "nipGuru": { "type": "string" },
+        "mataPelajaran": { "type": "string" },
+        "kelas": { "type": "string" },
+        "jenisSupervisi": { "type": "string" },
+        "skorTotal": { "type": "number" },
+        "persentase": { "type": "number" },
+        "predikat": { "type": "string" },
+        "catatanCatatanPositif": { "type": "string" },
+        "rekomendasiTindakLanjut": { "type": "string" }
+      }
+    }
+  }
+}
